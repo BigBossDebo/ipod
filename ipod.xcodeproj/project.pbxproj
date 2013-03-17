@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A79F365116F60A4E00417329 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79F365016F60A4E00417329 /* Foundation.framework */; };
+		A79F365616F60A4E00417329 /* ipod.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A79F365516F60A4E00417329 /* ipod.h */; };
+		A79F365816F60A4E00417329 /* ipod.m in Sources */ = {isa = PBXBuildFile; fileRef = A79F365716F60A4E00417329 /* ipod.m */; };
+		A79F366016F60A4E00417329 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79F365F16F60A4E00417329 /* SenTestingKit.framework */; };
+		A79F366216F60A4E00417329 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79F366116F60A4E00417329 /* UIKit.framework */; };
+		A79F366316F60A4E00417329 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79F365016F60A4E00417329 /* Foundation.framework */; };
+		A79F366616F60A4E00417329 /* libipod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A79F364D16F60A4E00417329 /* libipod.a */; };
+		A79F366C16F60A4E00417329 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A79F366A16F60A4E00417329 /* InfoPlist.strings */; };
+		A79F366F16F60A4F00417329 /* ipodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A79F366E16F60A4F00417329 /* ipodTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A79F366416F60A4E00417329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A79F364516F60A4E00417329 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A79F364C16F60A4E00417329;
+			remoteInfo = ipod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A79F364B16F60A4E00417329 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				A79F365616F60A4E00417329 /* ipod.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A79F364D16F60A4E00417329 /* libipod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libipod.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79F365016F60A4E00417329 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A79F365416F60A4E00417329 /* ipod-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ipod-Prefix.pch"; sourceTree = "<group>"; };
+		A79F365516F60A4E00417329 /* ipod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ipod.h; sourceTree = "<group>"; };
+		A79F365716F60A4E00417329 /* ipod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ipod.m; sourceTree = "<group>"; };
+		A79F365E16F60A4E00417329 /* ipodTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ipodTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79F365F16F60A4E00417329 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A79F366116F60A4E00417329 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A79F366916F60A4E00417329 /* ipodTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ipodTests-Info.plist"; sourceTree = "<group>"; };
+		A79F366B16F60A4E00417329 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A79F366D16F60A4E00417329 /* ipodTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ipodTests.h; sourceTree = "<group>"; };
+		A79F366E16F60A4F00417329 /* ipodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ipodTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A79F364A16F60A4E00417329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79F365116F60A4E00417329 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79F365A16F60A4E00417329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79F366016F60A4E00417329 /* SenTestingKit.framework in Frameworks */,
+				A79F366216F60A4E00417329 /* UIKit.framework in Frameworks */,
+				A79F366316F60A4E00417329 /* Foundation.framework in Frameworks */,
+				A79F366616F60A4E00417329 /* libipod.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A79F364416F60A4E00417329 = {
+			isa = PBXGroup;
+			children = (
+				A79F365216F60A4E00417329 /* ipod */,
+				A79F366716F60A4E00417329 /* ipodTests */,
+				A79F364F16F60A4E00417329 /* Frameworks */,
+				A79F364E16F60A4E00417329 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A79F364E16F60A4E00417329 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A79F364D16F60A4E00417329 /* libipod.a */,
+				A79F365E16F60A4E00417329 /* ipodTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A79F364F16F60A4E00417329 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A79F365016F60A4E00417329 /* Foundation.framework */,
+				A79F365F16F60A4E00417329 /* SenTestingKit.framework */,
+				A79F366116F60A4E00417329 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A79F365216F60A4E00417329 /* ipod */ = {
+			isa = PBXGroup;
+			children = (
+				A79F365516F60A4E00417329 /* ipod.h */,
+				A79F365716F60A4E00417329 /* ipod.m */,
+				A79F365316F60A4E00417329 /* Supporting Files */,
+			);
+			path = ipod;
+			sourceTree = "<group>";
+		};
+		A79F365316F60A4E00417329 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A79F365416F60A4E00417329 /* ipod-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A79F366716F60A4E00417329 /* ipodTests */ = {
+			isa = PBXGroup;
+			children = (
+				A79F366D16F60A4E00417329 /* ipodTests.h */,
+				A79F366E16F60A4F00417329 /* ipodTests.m */,
+				A79F366816F60A4E00417329 /* Supporting Files */,
+			);
+			path = ipodTests;
+			sourceTree = "<group>";
+		};
+		A79F366816F60A4E00417329 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A79F366916F60A4E00417329 /* ipodTests-Info.plist */,
+				A79F366A16F60A4E00417329 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A79F364C16F60A4E00417329 /* ipod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79F367216F60A4F00417329 /* Build configuration list for PBXNativeTarget "ipod" */;
+			buildPhases = (
+				A79F364916F60A4E00417329 /* Sources */,
+				A79F364A16F60A4E00417329 /* Frameworks */,
+				A79F364B16F60A4E00417329 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ipod;
+			productName = ipod;
+			productReference = A79F364D16F60A4E00417329 /* libipod.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A79F365D16F60A4E00417329 /* ipodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79F367516F60A4F00417329 /* Build configuration list for PBXNativeTarget "ipodTests" */;
+			buildPhases = (
+				A79F365916F60A4E00417329 /* Sources */,
+				A79F365A16F60A4E00417329 /* Frameworks */,
+				A79F365B16F60A4E00417329 /* Resources */,
+				A79F365C16F60A4E00417329 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A79F366516F60A4E00417329 /* PBXTargetDependency */,
+			);
+			name = ipodTests;
+			productName = ipodTests;
+			productReference = A79F365E16F60A4E00417329 /* ipodTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A79F364516F60A4E00417329 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Danny Nguyen";
+			};
+			buildConfigurationList = A79F364816F60A4E00417329 /* Build configuration list for PBXProject "ipod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A79F364416F60A4E00417329;
+			productRefGroup = A79F364E16F60A4E00417329 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A79F364C16F60A4E00417329 /* ipod */,
+				A79F365D16F60A4E00417329 /* ipodTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A79F365B16F60A4E00417329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79F366C16F60A4E00417329 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A79F365C16F60A4E00417329 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A79F364916F60A4E00417329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79F365816F60A4E00417329 /* ipod.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79F365916F60A4E00417329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79F366F16F60A4F00417329 /* ipodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A79F366516F60A4E00417329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A79F364C16F60A4E00417329 /* ipod */;
+			targetProxy = A79F366416F60A4E00417329 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A79F366A16F60A4E00417329 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A79F366B16F60A4E00417329 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A79F367016F60A4F00417329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A79F367116F60A4F00417329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A79F367316F60A4F00417329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ipod.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ipod/ipod-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A79F367416F60A4F00417329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ipod.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ipod/ipod-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A79F367616F60A4F00417329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ipod/ipod-Prefix.pch";
+				INFOPLIST_FILE = "ipodTests/ipodTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A79F367716F60A4F00417329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ipod/ipod-Prefix.pch";
+				INFOPLIST_FILE = "ipodTests/ipodTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A79F364816F60A4E00417329 /* Build configuration list for PBXProject "ipod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79F367016F60A4F00417329 /* Debug */,
+				A79F367116F60A4F00417329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A79F367216F60A4F00417329 /* Build configuration list for PBXNativeTarget "ipod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79F367316F60A4F00417329 /* Debug */,
+				A79F367416F60A4F00417329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A79F367516F60A4F00417329 /* Build configuration list for PBXNativeTarget "ipodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79F367616F60A4F00417329 /* Debug */,
+				A79F367716F60A4F00417329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A79F364516F60A4E00417329 /* Project object */;
+}
