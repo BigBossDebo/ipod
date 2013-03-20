@@ -18,6 +18,27 @@
 		A79F366F16F60A4F00417329 /* ipodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A79F366E16F60A4F00417329 /* ipodTests.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXBuildRule section */
+		A79F367816F60B4800417329 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = text.plist;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# builtin-copyPlist\n";
+		};
+		A79F367916F60B4C00417329 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = text.plist;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# builtin-copyPlist\n";
+		};
+/* End PBXBuildRule section */
+
 /* Begin PBXContainerItemProxy section */
 		A79F366416F60A4E00417329 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -157,6 +178,8 @@
 				A79F364B16F60A4E00417329 /* CopyFiles */,
 			);
 			buildRules = (
+				A79F367916F60B4C00417329 /* PBXBuildRule */,
+				A79F367816F60B4800417329 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -338,7 +361,8 @@
 				GCC_PREFIX_HEADER = "ipod/ipod-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -350,7 +374,8 @@
 				GCC_PREFIX_HEADER = "ipod/ipod-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
