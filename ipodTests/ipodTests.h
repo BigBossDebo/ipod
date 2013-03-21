@@ -6,8 +6,7 @@
 //  Copyright (c) 2013 Danny Nguyen. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
-
+#import SenTestingKit.framework
 @interface ipodTests : SenTestCase
 
 @end
