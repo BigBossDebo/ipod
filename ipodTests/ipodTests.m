@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Danny Nguyen. All rights reserved.
 //
 
-#import "/http://www.apple.com/DTDs/PropertyList-1.0.dtd/Xcode.app/Contents/Developer/Library/Frameworks/SenTestingKit.framework/Versions/A/SenTestingKit:"
+//#import"ipod.h"http://www.apple.com/DTDs/PropertyList-1.0.dtd/Xcode.app/Contents/Developer/Library/Frameworks/SenTestingKit.framework/Versions/A/SenTestingKit:http://www.apple.com/DTDs/PropertyList-1.0.dtd/Xcode.app/Contents/Developer/Library/Frameworks/SenTestingKit.framework/Versions/A/SenTestingKit:"
 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/SenTestingKit.framework/Versions/A/SenTestingKit:@implementation ipodTests
 
 - (void)setUp

@@ -6,8 +6,7 @@
 //  Copyright (c) 2013 Danny Nguyen. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
+#import </.h>ipod.h
 @interface ipod : NSObject
 
 @end
