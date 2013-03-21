@@ -625,7 +625,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Danny Nguyen";
 			};
-			buildConfigurationList = A79F364816F60A4E00417329 /* Build configuration list for PBXProject "ipod" */;
+			buildConfigurationList = A79F364816F60A4E00417329 /* Build configuration list for PBXProject "ipod copy" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1222,7 +1222,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A79F364816F60A4E00417329 /* Build configuration list for PBXProject "ipod" */ = {
+		A79F364816F60A4E00417329 /* Build configuration list for PBXProject "ipod copy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A79F367016F60A4F00417329 /* Debug */,
@@ -1256,6 +1256,7 @@
 				A7E5F9C116FA362000EB9F5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7E5F9C216FA362000EB9F5D /* Build configuration list for PBXNativeTarget "hTests" */ = {
 			isa = XCConfigurationList;
