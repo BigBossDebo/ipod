@@ -3,8 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 46;
 	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A7308E9A16FBBF72006F782E /* fgh */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A7308E9B16FBBF72006F782E /* Build configuration list for PBXAggregateTarget "fgh" */;
+			buildPhases = (
+				A7308E9E16FBBFDE006F782E /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = fgh;
+			productName = fgh;
+		};
+/* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
 		74E7B0A00AAF8B0900CAC7A5 /* stanfordbunny.c in Sources */ = {isa = PBXBuildFile; fileRef = 747CDC110AADEE950046D8C9 /* stanfordbunny.c */; };
@@ -12,7 +26,25 @@
 		74E7B0A90AAF8BD600CAC7A5 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747CDC3B0AADF0130046D8C9 /* GLUT.framework */; };
 		74E7B0AA0AAF8BD600CAC7A5 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747CDC360AADF0080046D8C9 /* OpenGL.framework */; };
 		74E7B0D50AAF8FD700CAC7A5 /* bunny.icns in Resources */ = {isa = PBXBuildFile; fileRef = 74E7B0D40AAF8FD700CAC7A5 /* bunny.icns */; };
+		A7308EA316FBC0D1006F782E /* Bunnies-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74E7B08E0AAF8A7600CAC7A5 /* Bunnies-Info.plist */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7308EDD16FBC0F0006F782E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7308ED816FBC0EF006F782E /* fgh.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7308EAD16FBC0EF006F782E;
+			remoteInfo = fgh;
+		};
+		A7308EDF16FBC0F0006F782E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7308ED816FBC0EF006F782E /* fgh.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7308EBE16FBC0EF006F782E;
+			remoteInfo = fghTests;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		747CDC0F0AADEE950046D8C9 /* main.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
@@ -22,8 +54,11 @@
 		747CDC360AADF0080046D8C9 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
 		747CDC3B0AADF0130046D8C9 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
 		74E7B08C0AAF8A7600CAC7A5 /* Bunnies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bunnies.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		74E7B08E0AAF8A7600CAC7A5 /* Bunnies-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Bunnies-Info.plist"; sourceTree = "<group>"; };
+		74E7B08E0AAF8A7600CAC7A5 /* Bunnies-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bunnies-Info.plist"; sourceTree = "<group>"; };
 		74E7B0D40AAF8FD700CAC7A5 /* bunny.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = bunny.icns; sourceTree = "<group>"; };
+		A7308E9316FBBF46006F782E /* dsghjak */ = {isa = PBXFileReference; explicitFileType = folder; includeInIndex = 0; path = dsghjak; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7308E9616FBBF46006F782E /* ContentInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ContentInfo.plist; sourceTree = "<group>"; };
+		A7308ED816FBC0EF006F782E /* fgh.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = fgh.xcodeproj; path = FBOBunnies/fgh/fgh.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +81,7 @@
 				74E7B0870AAF8A5200CAC7A5 /* Resources */,
 				747CDC180AADEEC40046D8C9 /* Headers */,
 				747CDC140AADEE9D0046D8C9 /* Source */,
+				A7308E9416FBBF46006F782E /* dsghjak */,
 				747CDC350AADEFDF0046D8C9 /* Frameworks */,
 				747CDC1E0AADEF5A0046D8C9 /* Products */,
 				74E7B08E0AAF8A7600CAC7A5 /* Bunnies-Info.plist */,
@@ -73,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				74E7B08C0AAF8A7600CAC7A5 /* Bunnies.app */,
+				A7308E9316FBBF46006F782E /* dsghjak */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,7 +131,49 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		A7308E9416FBBF46006F782E /* dsghjak */ = {
+			isa = PBXGroup;
+			children = (
+				A7308E9516FBBF46006F782E /* Supporting Files */,
+				A7308ED816FBC0EF006F782E /* fgh.xcodeproj */,
+			);
+			path = dsghjak;
+			sourceTree = "<group>";
+		};
+		A7308E9516FBBF46006F782E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7308E9616FBBF46006F782E /* ContentInfo.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7308ED916FBC0EF006F782E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7308EDE16FBC0F0006F782E /* libfgh.a */,
+				A7308EE016FBC0F0006F782E /* fghTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		A7308E9F16FBC05D006F782E /* er */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = A7308EA016FBC05D006F782E /* Build configuration list for PBXLegacyTarget "er" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			dependencies = (
+			);
+			name = er;
+			passBuildSettingsInEnvironment = 1;
+			productName = er;
+		};
+/* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
 		74E7B08B0AAF8A7600CAC7A5 /* Bunnies */ = {
@@ -114,21 +193,71 @@
 			productReference = 74E7B08C0AAF8A7600CAC7A5 /* Bunnies.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A7308E9216FBBF46006F782E /* dsghjak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7308E9916FBBF46006F782E /* Build configuration list for PBXNativeTarget "dsghjak" */;
+			buildPhases = (
+				A7308E9116FBBF46006F782E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dsghjak;
+			productName = dsghjak;
+			productReference = A7308E9316FBBF46006F782E /* dsghjak */;
+			productType = "com.apple.product-type.in-app-purchase-content";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		747CDC050AADEE790046D8C9 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
 			buildConfigurationList = 747CDC060AADEE790046D8C9 /* Build configuration list for PBXProject "FBOBunnies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 747CDC030AADEE790046D8C9;
 			productRefGroup = 747CDC1E0AADEF5A0046D8C9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A7308ED916FBC0EF006F782E /* Products */;
+					ProjectRef = A7308ED816FBC0EF006F782E /* fgh.xcodeproj */;
+				},
+			);
+			projectRoot = "";
 			targets = (
 				74E7B08B0AAF8A7600CAC7A5 /* Bunnies */,
+				A7308E9216FBBF46006F782E /* dsghjak */,
+				A7308E9A16FBBF72006F782E /* fgh */,
+				A7308E9F16FBC05D006F782E /* er */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A7308EDE16FBC0F0006F782E /* libfgh.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libfgh.a;
+			remoteRef = A7308EDD16FBC0F0006F782E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7308EE016FBC0F0006F782E /* fghTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = fghTests.octest;
+			remoteRef = A7308EDF16FBC0F0006F782E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		74E7B0880AAF8A7600CAC7A5 /* Resources */ = {
@@ -136,10 +265,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				74E7B0D50AAF8FD700CAC7A5 /* bunny.icns in Resources */,
+				A7308EA316FBC0D1006F782E /* Bunnies-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7308E9116FBBF46006F782E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A7308E9E16FBBFDE006F782E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		74E7B0890AAF8A7600CAC7A5 /* Sources */ = {
@@ -159,8 +312,7 @@
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH)";
 				COPY_PHASE_STRIP = NO;
-				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
 			};
 			name = Debug;
 		};
@@ -172,17 +324,16 @@
 					i386,
 				);
 				COPY_PHASE_STRIP = YES;
-				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
 			};
 			name = Release;
 		};
 		74E7B0900AAF8A7600CAC7A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -191,7 +342,6 @@
 				INFOPLIST_FILE = "Bunnies-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = "";
-				PREBINDING = NO;
 				PRODUCT_NAME = Bunnies;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = NO;
@@ -201,8 +351,8 @@
 		74E7B0910AAF8A7600CAC7A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -210,10 +360,139 @@
 				INFOPLIST_FILE = "Bunnies-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = "";
-				PREBINDING = NO;
 				PRODUCT_NAME = Bunnies;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		A7308E9716FBBF46006F782E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = dsghjak/ContentInfo.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/InAppPurchaseContent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = "";
+			};
+			name = Debug;
+		};
+		A7308E9816FBBF46006F782E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = dsghjak/ContentInfo.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/InAppPurchaseContent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = "";
+			};
+			name = Release;
+		};
+		A7308E9C16FBBF72006F782E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7308E9D16FBBF72006F782E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A7308EA116FBC05D006F782E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A7308EA216FBC05D006F782E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -234,6 +513,33 @@
 			buildConfigurations = (
 				74E7B0900AAF8A7600CAC7A5 /* Debug */,
 				74E7B0910AAF8A7600CAC7A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7308E9916FBBF46006F782E /* Build configuration list for PBXNativeTarget "dsghjak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7308E9716FBBF46006F782E /* Debug */,
+				A7308E9816FBBF46006F782E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7308E9B16FBBF72006F782E /* Build configuration list for PBXAggregateTarget "fgh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7308E9C16FBBF72006F782E /* Debug */,
+				A7308E9D16FBBF72006F782E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7308EA016FBC05D006F782E /* Build configuration list for PBXLegacyTarget "er" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7308EA116FBC05D006F782E /* Debug */,
+				A7308EA216FBC05D006F782E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
